@@ -4,18 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Galeria de Cachorros</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Css/style.css">
 </head>
 
 <body>
 
-<h1>Galeria de Cachorros </h1>
+<h1>Busca de Cachorros</h1>
 
-<button onclick="buscarCachorros()">Carregar Cachorros</button>
+<input 
+type="text" 
+id="pesquisa" 
+placeholder="Digite a raça do cachorro">
 
 <div id="container"></div>
 
-<script src="app.js"></script>
+<button id="buscarCachorros">Carregar Cachorros</button>
+<p id="mensagem"></p>
+
+<script src="JS/app.js"></script>
 
 </body>
 </html>
